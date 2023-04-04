@@ -1,0 +1,48 @@
+    ======  ======
+    Time:2/23/2023 3:28:04 PM
+    Title: Initiate log
+    Message: 
+    Time:2/23/2023 3:28:04 PM
+    Title: Initiate InternalManager
+    Message: Trying to Validate License
+    Time:2/23/2023 3:28:04 PM
+    Title: Requesting EVT
+    Message: EVTP
+    Time:2/23/2023 3:28:04 PM
+    Title: Requesting Validation
+    Message: ILMValidate
+    Time:2/23/2023 3:28:04 PM
+    Title: LICENSER
+    Message: TRL MODE
+    Time:2/23/2023 3:28:04 PM
+    Title: LICENSER
+    Message: DS LEFT-17
+    Time:2/23/2023 3:28:04 PM
+    Title: LICENSER
+    Message: DT MARK PASSED-17.00:00:00
+    Time:2/23/2023 3:28:04 PM
+    Title: ILMValidate action
+    Message: LIC
+    Time:2/23/2023 3:28:05 PM
+    Title: Access to the path 'C:\ProgramData\Telerik\Hash.lic' is denied.
+    Message:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   at Telerik.Licensing.Licenser.ReadHashPass()
+    Time:2/23/2023 3:28:05 PM
+    Title: LICENSER - TGO
+    Message: Start
+    Time:2/23/2023 3:28:08 PM
+    Title: LICENSER - TGO
+    Message: UserCredential missing.
+    Entering constructor for: Telerik.CommonPackage.VSPackage
+    Entering Initialize() of: Telerik.CommonPackage.VSPackage
+    devenv.exe Warning: 0 : Items of type 'AppxManifest' was requested but that type isn't offered by this provider.
+    devenv.exe Warning: 0 : Items of type 'AppxManifest' was requested but that type isn't offered by this provider.
+    devenv.exe Warning: 0 : Items of type 'AppxManifest' was requested but that type isn't offered by this provider.
+    devenv.exe Warning: 0 : Items of type 'AppxManifest' was requested but that type isn't offered by this provider.
+    devenv.exe Warning: 0 : Items of type 'AppxManifest' was requested but that type isn't offered by this provider.
+    devenv.exe Warning: 0 : Items of type 'AppxManifest' was requested but that type isn't offered by this provider.
+    Exception : Invalid clipboard format (Exception from HRESULT: 0x8004006A (DV_E_CLIPFORMAT))
+    Exception : Invalid clipboard format (Exception from HRESULT: 0x8004006A (DV_E_CLIPFORMAT))
+    2023-02-20-16.03.48.725-devenv-10872.tsv -> 2023-02-21-13.15.18.628-devenv-10872.tsv

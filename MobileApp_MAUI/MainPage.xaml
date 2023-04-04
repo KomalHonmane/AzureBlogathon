@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MauiMedia.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="25" VerticalOptions="Center">
+
+            <Slider Margin="30,0" DragCompleted="Slider_DragCompleted" />
+
+            <Label
+                x:Name="PredictionLabel"
+                HorizontalOptions="Center"
+                Text="Prediction: 0" />
+
+            <Button
+                Clicked="OnPickPhotoClicked"
+                HorizontalOptions="Center"
+                Text="Pick photo" />
+
+            <Button
+                Clicked="OnTakePhotoClicked"
+                HorizontalOptions="Center"
+                Text="Take photo" />
+
+            <Image
+                x:Name="UploadedOrSelectedImage"
+                HeightRequest="300"
+                HorizontalOptions="Center"
+                SemanticProperties.Description="Selected Image!"
+                Source="dotnet_bot.png" />
+
+            <Label x:Name="FileSizeLabel" HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
