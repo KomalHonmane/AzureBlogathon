@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fornrecognizer", "fornrecognizer\fornrecognizer.csproj", "{B4E8E2AB-7679-4148-B4D6-9E43BC2249BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4E8E2AB-7679-4148-B4D6-9E43BC2249BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E8E2AB-7679-4148-B4D6-9E43BC2249BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E8E2AB-7679-4148-B4D6-9E43BC2249BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E8E2AB-7679-4148-B4D6-9E43BC2249BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D265526-6C0D-4478-BD89-FE2D357D3726}
+	EndGlobalSection
+EndGlobal
