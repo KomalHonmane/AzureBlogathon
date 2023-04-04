@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsDashboard": "UseDevelopmentStorage=true"
+  },
+  //"ConnectionStrings": {
+  //  "TodoContext": "Server=BANZ5510\\SQLEXPRESS;Database=EmpSatisfactionEvaluationDb;Trusted_Connection=True;"
+  //}
+
+  "ConnectionStrings": {
+    "TodoContext": "Server=tcp:HelthInsurance.database.windows.net,1433;Initial Catalog=HelthInsuranceDb;Persist Security Info=False;User ID=ndt5kor;Password=Crossfire@098;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+  }
+}
